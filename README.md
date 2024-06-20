@@ -2,5 +2,4 @@
 <img width="333" alt="Logo" src="https://github.com/LiedsonDelgado/school_projects/assets/165567213/1969b36a-bef7-4f00-a498-adb86e0ec727">
 
 
-👨🏽‍💻>Repositório para meus arquivos,codigos,projetos da escola/universidade(UTA)
-...
+👨🏽‍💻</Repositório para meus arquivos,codigos,projetos da escola/universidade(UTA).
