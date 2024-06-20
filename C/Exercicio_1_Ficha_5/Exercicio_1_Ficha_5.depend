@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1715770434 source:e:\documentos uta-isecmar\1º ano 23-24\2ºsemestre\a.e.d\ld_aed\exercicios_ficha\exercicio_1_ficha_5\main.c
+	"exercicio_1_ficha_5.h"
+	<locale.h>
+
+1715767994 e:\documentos uta-isecmar\1º ano 23-24\2ºsemestre\a.e.d\ld_aed\exercicios_ficha\exercicio_1_ficha_5\exercicio_1_ficha_5.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1715620316 source:c:\users\user\documents\documentos uta-isecmar\1º ano 23-24\2ºsemestre\a.e.d\ld_aed\exercicios_ficha\exercicio_1_ficha_5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"exercicio_1_ficha_5.h"
+
+1715517432 c:\users\user\documents\documentos uta-isecmar\1º ano 23-24\2ºsemestre\a.e.d\ld_aed\exercicios_ficha\exercicio_1_ficha_5\exercicio_1_ficha_5.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1715620022 source:c:\users\user\documents\documentos uta-isecmar\1º ano 23-24\2ºsemestre\a.e.d\ld_aed\exercicios_ficha\exercicio_1_ficha_5\exercicio_1_ficha_5.c
+	"exercicio_1_ficha_5.h"
+
+1715767850 source:e:\documentos uta-isecmar\1º ano 23-24\2ºsemestre\a.e.d\ld_aed\exercicios_ficha\exercicio_1_ficha_5\exercicio_1_ficha_5.c
+	"exercicio_1_ficha_5.h"
+
