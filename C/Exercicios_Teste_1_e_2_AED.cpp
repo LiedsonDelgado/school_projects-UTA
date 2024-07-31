@@ -12,7 +12,7 @@
 typedef struct{
 	char *nome;
 	char pacote;
-unsigned int n_cliente; //numero de cliente(sem sinal)
+unsigned int n_cliente; //numero de cliente(sem sinal(nesse caso considerado positivo))
 }Cliente;
 
 //________________________Estrutura_Exercicio_8_Teste_2_GII_AED
@@ -80,7 +80,7 @@ return 0;
 void free_memoria(Cliente *array_N,int N){
 int i;
 for(i=0;i<N;i++){
-	free(array_N[i].nome);//Liberta a Espaço/Memoria de cada cliente	
+	free(array_N[i].nome);//Liberta a EspaÃ§o/Memoria de cada cliente	
 }
 free(array_N);//Liberta a Memoria do vetor de clientes	
 }
@@ -145,7 +145,7 @@ float max_Element(tree *T){
 		printf("Arvore Vazia");
 		exit(EXIT_FAILURE);
 	}
-	while(T->right!=NULL){//O elemento max sempre estara no Nó mais a direita da Arvore
+	while(T->right!=NULL){//O elemento max sempre estara no NÃ³ mais a direita da Arvore
 		T=T->right;
 	}
 	T->x;
