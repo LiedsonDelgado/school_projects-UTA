@@ -1,15 +1,16 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include <string.h>
-#include<math.h>
+#include<stdlib.h>  //>Nao e necessario no codigo
+#include <string.h> //>Nao e necessario no codigo
+#include<math.h>    //>Nao e necessario no codigo
+//------------------
 #include <locale.h>
+#include<stdio.h>
 //-------------------------------------------------------------------------------------------------------
 void jogo(){
 int escolha_j1,escolha_j2;	
 
-printf("\n--Escolha uma Opção--\n");
+printf("\n--Escolha uma OpÃ§Ã£o--\n");
 printf("---1.Pedra--- \n---2.Papel--- \n---3.Tesoura---\n");
-printf("(Digite o numero de cada Opção)\n");
+printf("(Digite o numero de cada OpÃ§Ã£o)\n");
 
 printf("\nJogador 1: ");
 scanf("%d",&escolha_j1);
@@ -33,7 +34,7 @@ printf("--Jogador 1 escolheu TESOURA\n");
    break;
    
 default:
-	printf("Escolha Inválida\n");return;
+	printf("<Escolha InvÃ¡lida>\n");
 }
 
 //-------------------------------------
@@ -52,7 +53,7 @@ printf("--Jogador 2 escolheu TESOURA\n");
    break;
 
 default:
-    printf("<Escolha Inválida>");
+    printf("<Escolha InvÃ¡lida>\n");
 
 }
 //-------------------------------------------------------------------------------------------------------
