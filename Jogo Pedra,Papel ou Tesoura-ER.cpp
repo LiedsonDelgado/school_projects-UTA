@@ -84,7 +84,7 @@ printf("(S,s-SIM)  (N,n-NAO):");
 scanf("%c",&play_again);
 
 }
-while(play_again=='S'|| play_again=='s');
+while(play_again=='S' || play_again=='s');
 
 return 0;
 }
