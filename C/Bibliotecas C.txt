@@ -1,2 +1,0 @@
-https://manual.cs50.io/
-(BIBLIOTECAS DO C E SUAS FUNCOES)
