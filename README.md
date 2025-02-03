@@ -1,2 +1,2 @@
-<h3>👨🏽‍💻Repositório para meus arquivos,codigos,projetos da escola/universidade(UTA).</h3>
-<img src"Logo/">
+<h3>👨🏽‍💻Repositório para meus ficheiros, codigos, projetos da Universidade(UTA).</h3>
+<img src"Logo/Logo.png">
