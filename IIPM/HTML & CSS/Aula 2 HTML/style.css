@@ -1,0 +1,208 @@
+/*Seletores/Atributos dos elementos(tags)*/
+body{
+    color: #444;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
+    position: relative;
+}
+
+h1,h2,h3,h4,p,li{
+    font-family: sans-serif;
+    color: #444;
+}
+
+h1{
+    color: #1098ad;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 26px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+ul,ol{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+a{
+    color:#1098ad;
+}
+a:hover{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: underline dotted orangered;
+    transition: ease 0.9;
+}
+
+a:link{
+    color: #1098ad;
+}
+
+a:active{
+    background-color: black;
+    font-style: italic;
+}
+
+footer p{
+    font-size: 16px;
+}
+
+aside{
+    background-color: #f7f7f7;
+
+    width: 300px;
+
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+
+    padding-top: 50px;
+    padding-bottom: 458px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 20px;
+
+    padding:20px;
+    bottom:50px;
+    right:50px;
+    
+    position: absolute;
+}
+
+h2{
+    position: relative;
+}
+
+h2::after{
+    font-size: 16px;
+    font-weight: bold;
+    content: "NEW!";
+    background-color: #ffe70e;
+    color:#444;
+
+    right: -2px;
+    top: -10px;
+    position: absolute;
+    padding: 5px 10px;
+}
+
+/*Seletor Universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ID(unico)*/
+#autor{
+    font-style: italic;
+    font-size: 16px;
+}
+
+/*Classes*/
+.header-principal{
+    background-color: #f7f7f7;
+
+    padding: 20px 40px;
+    margin-bottom: 60px;
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autor-relacionado{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.post-img-0{
+    width: 760px;
+    height: 350px;
+}
+
+.contentor-principal{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    width: 800px;
+
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentor-0{/*contentor CONTEÚDO PRINCIPAL*/
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    width: 800px;
+
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentor-1{/*contentor POSTS RELACIONADOS*/
+    width: 100px;
+    height: 1px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+}
+
+.contentor-img{ /*contentor IMG 1*/
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+}
+
+/*Pseudo Classes*/
+li:first-child{
+    font-weight: bold;
+}
+
+/*li:last-child{
+    color:red;
+}*/

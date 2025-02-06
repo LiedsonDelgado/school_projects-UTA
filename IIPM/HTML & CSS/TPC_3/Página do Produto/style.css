@@ -1,0 +1,202 @@
+/*SELETORES*/
+body{
+    height: 600px;
+
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h2::after{
+    font-size: 18px;
+    font-weight: bold;
+    content: "Promoção";
+    background-color: red;
+    color:#000000;
+
+    right: 410px;
+    bottom: 250px;
+    position: absolute;
+    padding: 4px 19px;
+}
+
+h3{
+    color: rgb(0, 255, 0);
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    color: rgb(174, 252, 206);
+    text-decoration: n;
+}
+
+a:hover{
+    color: rgb(0, 255, 106);
+    text-decoration:underline;
+}
+
+button{
+    cursor: pointer;
+    color: red;
+    background-color: black;
+
+    width: 1520px;
+    height: 160px;
+
+    text-transform: uppercase;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+button:hover{
+    color: rgb(0, 255, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+button:visited{
+    color:  rgb(0, 255, 106);
+}
+
+button:active{
+    color: rgb(204, 0, 255);
+}
+
+/*CLASSES*/
+.slogan-text{
+    font-size: 15px;
+}
+
+.strong-text{
+    color: rgb(255, 94, 0);
+}
+
+.size-img{
+    width: 250px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+.size-img-2{
+    width: 300px;
+    height: 400px;
+}
+
+.x-orientation{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+    left: 340px;
+    bottom: 290px;
+}
+
+.y-orientation{
+    width: 200px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    left: 340px;
+    bottom: 460px;
+}
+
+.color-0{
+    background-color: rgb(174, 0, 255);
+    cursor: pointer;
+
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.color-1{
+    background-color: rgb(0, 255, 149);
+    cursor: pointer;
+
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.color-2{
+    background-color: rgb(72, 255, 0);
+    cursor: pointer;
+
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.color-3{
+    background-color: rgb(0, 38, 255);
+    cursor: pointer;
+
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.color-4{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.side-info{
+    width: 750px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    left: 770px;
+    bottom: 465px;
+}
+
+.button-change{
+    align-items: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+
+    left: 15px;
+    bottom: 3px;
+}
+
+*{  box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

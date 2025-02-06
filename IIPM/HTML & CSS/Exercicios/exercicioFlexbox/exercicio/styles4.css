@@ -1,0 +1,31 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 70%;
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+button {
+  font-size: 18px;
+  line-height: 1.5;
+
+  margin: 15px 15px;
+
+  width: 150px;
+  height: 30px;
+}
+
+div {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+  height: 100px;
+  border: 1px solid black;
+}
+
+/* Add your flexbox CSS below here */

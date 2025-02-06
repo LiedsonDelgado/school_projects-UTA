@@ -1,0 +1,293 @@
+/*Seletores/Atributos dos elementos(tags)*/
+body{
+    color: #444;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
+    position: relative;
+}
+
+h1,h2,h3,h4,p,li{
+    font-family: sans-serif;
+    color: #444;
+}
+
+h1{
+    color: #1098ad;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 26px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+u{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+ul,ol{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+a{
+    color:#1098ad;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none orangered;
+    transition: ease 0.9;
+}
+
+a:link{
+    color: #1098ad;
+}
+
+a:active{
+    background-color: black;
+    font-style: italic;
+}
+
+footer p{
+    font-size: 16px;
+}
+
+aside{
+    background-color: #f7f7f7;
+
+    width: 300px;
+
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+
+    padding-top: 50px;
+    padding-bottom: 458px;
+}
+
+button{ 
+    background-color: #0026ff;
+    color: #ffe600;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+
+    bottom:50px;
+    right:50px;
+    
+    position: absolute;
+}
+
+button:hover{
+    color: #0026ff;
+    background-color: #ffe600;
+}
+
+h2{
+    position: relative;
+}
+
+h2::after{
+    font-size: 16px;
+    font-weight: bold;
+    content: "NEW!";
+    background-color: #ffe70e;
+    color:#444;
+
+    right: -2px;
+    top: -10px;
+    position: absolute;
+    padding: 5px 10px;
+}
+
+/*Seletor Universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ID(unico)*/
+#autor{
+    font-style: italic;
+    font-size: 16px;
+}
+
+/*Classes*/
+.header-principal{
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.distance{
+    left: 180px;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    width: 300px;
+
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.organize-0{
+    font-size: 16px;
+    font-weight: bold;
+
+     display: flex;
+    flex-direction:row;
+
+    align-items: center;
+    justify-content: start;
+
+    width: 1000px;
+    gap: 8px;
+}
+
+.organize{
+    font-size: 16px;
+    font-weight: bold;
+
+     display: flex;
+    flex-direction:column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 1000px;
+    left: -400px;
+
+    position: relative;
+    gap: 8px;
+}
+
+.autor-relacionado{
+    font-size: 14px;
+    font-weight: bold;
+
+     display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    width: 100px;
+}
+
+.post-img-0{
+    width: 760px;
+    height: 350px;
+}
+
+.post-img-2{
+    width: 50px;
+    height: 50px;
+}
+
+.contentor-principal{
+    left: 180px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    width: 1090px;
+
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.contentor-0{/*contentor CONTEÚDO PRINCIPAL*/
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    width: 800px;
+
+    left: -100px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentor-1{/*contentor POSTS RELACIONADOS*/
+    width: 350px;
+    height: 430px;
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+    justify-content: space-between;
+    bottom: 1135px;
+    left: 1230px;
+
+}
+
+.contentor-img{ /*contentor IMG 1*/
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+}
+
+/*Pseudo Classes*/
+li:first-child{
+    font-weight: bold;
+}
+
+/*li:last-child{
+    color:red;
+}*/

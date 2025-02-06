@@ -1,0 +1,16 @@
+.info{
+    background-color: blue;
+    height: 43vh;
+    width: 54vw;
+}
+
+.navbar{
+    background-color: aquamarine;
+    height: 6rem;
+    font-size: 2rem;
+}
+
+.main{
+    background-color: brown;
+    height: 100vh;
+}

@@ -1,0 +1,46 @@
+body{
+    background: rgb(0, 0, 0);
+}
+
+.hero{
+    background: rgb(71, 71, 71);
+}
+
+h1{
+    color: rgb(197, 197, 197);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:36rem){
+    body{
+        background: rgb(197, 197, 197);
+    }
+
+    hero{
+        background: white;
+    }
+
+    h1{
+        color: greenyellow;
+        font-size: 3rem;
+    }
+    
+}
+
+@media screen and (min-width: 48rem){
+    body{
+        background: rgb(0, 148, 104);
+    }
+
+    hero{
+        margin-top: 3.7rem;
+        background: rgb(0, 36, 70);
+    }
+
+    h1{
+        color: greenyellow;
+        font-size: 4rem;
+    }
+}
