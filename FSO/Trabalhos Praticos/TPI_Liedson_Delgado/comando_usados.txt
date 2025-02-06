@@ -1,0 +1,21 @@
+cd	-para mudar para um diretorio especifico
+cd ..	-para ir para um diretorio mais acima
+ls	-para abrir a lista de pastas num diretorio
+mkdir	-para criar um diretorio
+
+sudo apt install build-essencial	-para instalar os pacotes
+sudo apt-get install vim	-para instalar o editor
+sudo apt-get install make	-para instalar a ferramenta de compilação 
+
+vim	-para criar ficheiros/arquivos
+
+
+i	-para o modo edicao de informacoes/dados no ficheiro/arquivo
+esc	-para sair do modo de insercao
+:wq	-para salvar e sair do modo de edicao
+
+gcc -g -c 	-para compilar os ficheiros
+gcc -o	-para fazer ligacao entre os ficheiros
+tar -czvf TPI_Liedson_Delgado.tar.gz TPI_Liedson_Delgado/	-para compactar uma pasta com ficheiros dentro
+
+./main	-para executar algum programa já compilado

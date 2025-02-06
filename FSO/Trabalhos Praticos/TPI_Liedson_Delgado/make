@@ -1,0 +1,7 @@
+main: header.o funcoes.o main.o
+	gcc -o main.c header.o funcoes.o
+
+funcoes.o: header.h funcoes.c
+	gcc -g -c funcoes.c
+main.o: main.c header.h
+	gcc -g -c main.c

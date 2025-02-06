@@ -1,0 +1,3 @@
+Macros-WIFEXITED, WEXISTSTATUS ->exerc.5
+
+time.h, clock()-clocks-per-sec ->exerc.14

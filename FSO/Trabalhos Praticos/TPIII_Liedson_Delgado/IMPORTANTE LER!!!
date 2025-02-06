@@ -1,0 +1,3 @@
+Professora ocorreu um "problema" inesperado(na qual nao consegui resolver) quando se tenta executar novamente o Makefile pelo comando "make" mesmo que o "clean" esteja no Makefile,
+entao se a senhora que quiser usar o comando "make" recomendo usar o comando "make clean" antes de usar o "make" novamente para remover os ficheiros ".o"-object code e o executavel 
+para que seja possivel compilar o ".c" novamente e criar os ficheiros removidos.
