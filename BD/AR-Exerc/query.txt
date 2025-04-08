@@ -1,0 +1,33 @@
+group: nameOftheNewGroup
+
+Cargo = {
+CdCargo:string,NmCargo:string,VrSalario:number
+'C1','Cozinheira',350
+'C3','Aux Escritorio',450
+'C7','Vigia',400
+'C2','Mecanico',750
+'C5','Gerente',2300
+'C4','Escriturario',600
+}
+
+Departamento = {
+Cd:string,NmDepto:string,Ramal:number
+'D1','Administracao',221
+'D2','Oficina',235
+'D3','Servicos Gerais',243
+'D4','Vendas',258
+}
+
+Funcionario = {
+NrMatric:number,NmFunc:string,DtAdm:date,Sexo:string,CdCargo:string,CdDepto:string
+1001,'Joao Sampaio',1993-08-10,'M','C2','D2'
+1004,'Lucio Torres',2024-03-02,'M','C2','D2'
+1034,'Roberto Teixeira',1992-05-23,'M','C3','D1'
+1021,'Jose Nogueira',1994-11-10,'M','C3','D1'
+1029,'Ruth de Souza',1992-01-05,'F','C1','D3'
+1095,'Maria da Silva',1992-09-03,'F','C4','D1'
+1023,'Luiz de Almeida',1994-01-12,'M','C2','D2'
+1042,'Pedro Pinheiro',1994-07-29,'M','C4','D1'
+1048,'Ana Silveira',1993-06-01,'M','C5','D1'
+1015,'Paulo Rodrigues',1992-08-17,'M','C2','D2'
+}
