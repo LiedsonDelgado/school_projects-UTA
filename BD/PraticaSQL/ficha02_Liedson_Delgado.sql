@@ -1,7 +1,7 @@
 /*Liedson Delgado-LEIT*/
 
 /*Exercicio 1*/
-create database loja_computadores;
+create database loja_computadores;fabricante
 use loja_computadores;
 
 create table produtos(Codigo int not null,Nome varchar(250),Preco decimal(10,0),Fabricante int);
