@@ -1,0 +1,60 @@
+Qual partícula subatômica possui carga elétrica negativa? 
+Próton 
+Nêutron 
+Elétron 
+Pósitron 
+C 
+Qual é o metal cujo símbolo químico é Au? 
+Prata 
+Cobre 
+Alumínio 
+Ouro 
+D 
+Qual navegador de internet é desenvolvido pela Google? 
+Firefox 
+Safari 
+Edge 
+Chrome 
+D 
+Como se chama a força que atrai os objetos para o centro da Terra? 
+Inércia 
+Gravidade 
+Atrito 
+Magnetismo 
+B 
+Qual componente é responsável por armazenar dados permanentemente no PC? 
+SSD 
+Memória RAM 
+Cache 
+Barramento 
+A 
+Qual é a principal fonte de energia para o ciclo da água na Terra? 
+Vento 
+Lua 
+Sol 
+Núcleo terrestre 
+C 
+Qual ferramenta de IA é desenvolvida pela OpenAI? 
+Gemini 
+ChatGPT 
+Claude 
+Copilot 
+B 
+Qual é o gás que os seres humanos exalam em maior quantidade na respiração? 
+Oxigênio 
+Dióxido de Carbono 
+Nitrogênio 
+Argônio 
+B 
+O que significa a sigla URL na computação? 
+Uniform Resource Locator 
+Universal Remote Line 
+Unified Resource Link 
+User Reading Location 
+A 
+Qual é o estado físico da matéria com volume fixo mas forma variável? 
+Sólido 
+Gasoso 
+Plasma 
+Líquido 
+D
